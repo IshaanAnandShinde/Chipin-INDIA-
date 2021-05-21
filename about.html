@@ -1,0 +1,232 @@
+<!-- ABOUT/CONTACT US -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Us</title>
+<script>
+  function redirect()
+{
+    window.location.href = "mailto:mail@example.org";
+}
+</script>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+ 
+html {
+  box-sizing: border-box;
+}
+ 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+ 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(122, 36, 36, 0.2);
+  margin: 8px;
+}
+ 
+.about-section {
+  padding: 1px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 8px red;
+  background-color: #FF8C00;
+}
+ 
+
+.navbar {
+  overflow: hidden;
+  background-color: orangered;
+}
+ 
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+ 
+/* Right-aligned link */
+.navbar a.right {
+  float: left;
+}
+ 
+/* Change color on hover */
+.navbar a:hover {
+  background-color: rgb(247, 29, 29);
+  color: black;
+}
+
+.container {
+  padding: 0 16px;
+}
+ 
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ 
+.title {
+  color: black;
+}
+ 
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+ 
+.button:hover {
+  background-color: #FF8C00;
+}
+ 
+.footer {
+  padding: 6px;
+  text-align: center;
+  background: #ddd;
+  background-color: #FF8C00
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+</style>
+</head>
+<body>
+ 
+<div class="about-section">
+  <h1 style="font-size: 40px;"> About Us </h1>
+  
+</div>
+<div class="navbar">
+    
+    <a href="home.html" class="right" style="color: white;"><strong>HOME</strong></a>
+   
+  </div>
+
+  <div class="des">
+    <h2 style="text-align:center">About</h2>
+    <center><p style="color: orangered; font-size: 20px; border-style: solid; margin-left: 10px; margin-right: 10px;">Chip in INDIA! has the vision to transform the quality of life for stray & abandoned animals, through greater understanding, collaboration and by promoting lasting, mutually life-enhancing relationships.
+      We open the minds to whats happening around us and inspire people to be an integral part of the solution.
+      We envision a world in which the practice of kindness and compassion is taught and encouraged at every level of our society, guaranteeing fair and humane treatment for the animals worldwide.</p></center><br>
+      <center><p style="color: orangered; font-size: 20px; border-style: solid; margin-left: 10px; margin-right: 10px;">Chip in INDIA! is dedicated to the rescue and rehabilitation of modern-day stray & abandoned animals.
+      We provide refuge to animals that have suffered from abuse and neglect as a direct result of cruelty & reasons unknown.
+      As a part of our program, we believe in creating awareness through unique stories and interactions with the animals.
+      By sharing their stories of resilience and hope, we aim to create a sustainable society that invests in the integrity of our environment and our animals.</p></center>
+  </div>
+
+
+
+  <h2 style="text-align:center">Our Team</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <div class="container" style=" background-color: orangered;">
+          <h2>Ishaan</h2>
+          <div class="thumnail">
+  
+          <center><img src="person.png" alt="" class="cause-img" style="height: 200px; width: 150px; vertical-align: middle; text-align: center;"></center>
+            
+        </div>
+          <p class="title">Founder</p>
+         
+          <label><strong>EMAIL</strong></label>
+          
+          <p><button class="button" onclick = "window.location.href = 'mailto: ishaan.shnd@gmail.com';">ishaan.shnd@gmail.com</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <div class="container" style=" background-color: orangered;">
+          <h2>member 2</h2>
+          <div class="thumnail">
+  
+          <center><img src="person.png" alt="" class="cause-img" style="height: 200px; width: 150px; vertical-align: middle; text-align: center;"></center>
+            
+        </div>
+          <p class="title">Manager</p>
+          
+          <label><strong>EMAIL</strong></label>
+          <p><button class="button"onclick = "window.location.href = 'mailto: member2@gmail.com';">member2@gmail.com</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <div class="container" style=" background-color: orangered;">
+          <h2>member 3</h2>
+          <div class="thumnail">
+  
+          <center><img src="person.png" alt="" class="cause-img" style="height: 200px; width: 150px; vertical-align: middle; text-align: center;"></center>
+            
+        </div>
+          <p class="title">IT</p>
+          
+          <label><strong>EMAIL</strong></label>
+          <p><button class="button"onclick = "window.location.href = 'mailto: member3@gmail.com';">member3@gmail.com</button></p>
+        </div>
+      </div>
+    </div>
+   
+    <div class="column">
+      <div class="card">
+        <div class="container" style=" background-color: orangered;">
+          <h2>member 4</h2>
+          <div class="thumnail">
+  
+          <center><img src="person.png" alt="" class="cause-img" style="height: 200px; width: 150px; vertical-align: middle; text-align: center;"></center>
+            
+        </div>
+          <p class="title">Treasurer</p>
+          
+          <label><strong>EMAIL</strong></label>
+          <p><button class="button"onclick = "window.location.href = 'mailto: member4@gmail.com';">member4@gmail.com</button></p>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+<div class="map">
+
+  <h2 style="text-align:center">Our Headquarter</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15084.0314980957!2d72.85185607827403!3d19.063391393520842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8df0b86ea1b%3A0xce7eea4b1bbdf296!2sBandra%20Kurla%20Complex%2C%20Bandra%20East%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1621506625337!5m2!1sen!2sin" 
+  width="100%" height="450" style="border:0;"
+  allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+<div class="footer">
+    <h2>The Spark Foundation</h2>
+    <p style="font-size: medium;">Task 3 by Ishaan Anand Shinde</p>
+  </div>
+</body>
+</html>
